@@ -42,6 +42,6 @@ This will export file next to the depth.py file called `<your-video-file>_depth.
 | Process Averages | Reduces video 'fluttering' by averaging frames | None | `--average` | `False` | None |
 | Output File | Specifies the output file name | `-o` | `--output` | `""` | Valid file path |
 | Ignore Output Option | Ignores user-specified output file | None | None | `False` | None |
-| Processor | Selects the processing algorithm | `-p` | `--processor` | `"zoe"` | `zoe_processors`, `dpt_processors`, `"sd15"` |
+| Processor | Selects the processing algorithm | `-p` | `--processor` | `"zoe"` | `ZoeD_NK`, `ZoeD_N`, `ZoeD_K`, `dpt-hybrid`,`dpt-large` |
 | Image Format | Sets the output image format used in processing | `-f` | `--format`, `--png`, `--jpg` | `"jpg"` | `"png"`, `"jpg"` |
 | Keep File Mode | Keeps temporary files after processing | None | `--keep` | `False` | None |
