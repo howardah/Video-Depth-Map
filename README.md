@@ -40,7 +40,7 @@ This will export file next to the depth.py file called `<your-video-file>_depth.
 | Loud Mode | Prints output in terminal | `-nq` | `--not-quiet`, `--loud` | `False` | None |
 | Print ID | Prints a unique identifier for the current run | None | `--print-id` | `False` | None |
 | Process Averages | Reduces video 'fluttering' by averaging frames | None | `--average` | `False` | None |
-| Output File | Specifies the output file name | `-o` | `--output` | `""` | Valid file path |
+| Output File | Specifies the output file name | `-o` | `--output` | `"<input-file>_depth.mp4"` | Valid file path |
 | Ignore Output Option | Ignores user-specified output file | None | None | `False` | None |
 | Processor | Selects the processing algorithm | `-p` | `--processor` | `"zoe"` | `ZoeD_NK`, `ZoeD_N`, `ZoeD_K`, `dpt-hybrid`,`dpt-large` |
 | Image Format | Sets the output image format used in processing | `-f` | `--format`, `--png`, `--jpg` | `"jpg"` | `"png"`, `"jpg"` |
