@@ -39,7 +39,7 @@ This will export file next to the depth.py file called `<your-video-file>_depth.
 | Quiet Mode | Logs output to log file | `-q` | `--quiet` | `True` | None |
 | Loud Mode | Prints output in terminal | `-nq` | `--not-quiet`, `--loud` | `False` | None |
 | Print ID | Prints a unique identifier for the current run | None | `--print-id` | `False` | None |
-| Process Averages | Analyzes and prints average values | None | `--average` | `False` | None |
+| Process Averages | Reduces video 'fluttering' by averaging frames | None | `--average` | `False` | None |
 | Output File | Specifies the output file name | `-o` | `--output` | `""` | Valid file path |
 | Ignore Output Option | Ignores user-specified output file | None | None | `False` | None |
 | Processor | Selects the processing algorithm | `-p` | `--processor` | `"zoe"` | `zoe_processors`, `dpt_processors`, `"sd15"` |
