@@ -3,7 +3,7 @@
 
 ## About
 
-This library is largely inspired by jankais3r's (Video-Depthify)[https://github.com/jankais3r/Video-Depthify] and uses publically available Pre-Trained AI Models (ZoeDepth)[https://github.com/isl-org/ZoeDepth] and (DPT-Hybrid)[https://huggingface.co/Intel/dpt-hybrid-midas]/(DPT-Large)[https://huggingface.co/Intel/dpt-large].
+This library is largely inspired by jankais3r's [Video-Depthify](https://github.com/jankais3r/Video-Depthify) and uses publically available Pre-Trained AI Models [ZoeDepth](https://github.com/isl-org/ZoeDepth) and [DPT-Hybrid](https://huggingface.co/Intel/dpt-hybrid-midas)/[DPT-Large](https://huggingface.co/Intel/dpt-large).
 
 ## Installation
 
@@ -20,7 +20,7 @@ conda create -n depth_map -f environment.yml # Or environment-osx.yml
 conda activate depth_map
 ```
 
-In addition, the script relies on (ffmpeg)[https://ffmpeg.org/] so you will need to install that as well. You can do so from the 'Download' tab on their website or with `apt install ffmpeg` / `yum install ffmpeg` / `brew install ffmpeg`
+In addition, the script relies on [ffmpeg](https://ffmpeg.org/) so you will need to install that as well. You can do so from the 'Download' tab on their website or with `apt install ffmpeg` / `yum install ffmpeg` / `brew install ffmpeg`
 
 ## Usage
 
