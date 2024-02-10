@@ -155,5 +155,5 @@ cython_debug/
 # Project specific
 .temp/
 logs/
-
+ffmpeg_log.txt
 .DS_Store
